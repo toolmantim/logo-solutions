@@ -1,0 +1,9 @@
+TO multisquare
+repeat 8 [
+  repeat 4 [
+    forward 150
+    right 90
+  ]
+  right 45
+]
+end

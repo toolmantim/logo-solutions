@@ -1,0 +1,31 @@
+TO draw :distance
+  forward :distance
+  back :distance
+END
+
+TO vee :size
+  left 50
+  draw :size
+  right 100
+  draw :size
+  left 50
+END
+
+TO circle :diameter
+  arc 360 :diameter/2
+END
+
+TO person :size
+  right 180
+  vee :size
+  right 180
+  forward :size
+  vee :size
+  forward :size/2
+  penup
+  forward 50
+  pendown
+  circle :size
+END
+
+person 100

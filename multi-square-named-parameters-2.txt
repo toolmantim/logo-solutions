@@ -1,0 +1,9 @@
+TO multisquare :size :angle
+repeat 2 [
+  repeat 4 [
+    forward :size
+    right 90
+  ]
+  right :angle
+]
+end
