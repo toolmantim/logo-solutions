@@ -23,7 +23,7 @@ TO person :size
   vee :size
   forward :size/2
   penup
-  forward 50
+  forward :size/2
   pendown
   circle :size
 END
